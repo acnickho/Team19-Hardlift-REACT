@@ -1,0 +1,46 @@
+#footer {
+
+	background-color: #009999;
+    font-family:arial;
+    clear: both;
+    height: 150px;
+    text-align: left;
+         
+}
+
+ul.col1 {
+	display: inline;
+	list-style-type: none;
+	float: left;
+    line-height: 1.7;
+    color: aqua;
+    width: 200px
+}
+
+ul.col2 {
+	display: block;
+	list-style-type: none;	
+	float: left;
+    line-height: 1.7;
+    color: aqua;
+}
+ul.col3 {
+	display: block;
+	list-style-type: none;	
+	float: left;
+    line-height: 1.7;
+    color: aqua;
+}
+ul.col4 {
+    display: block;
+	list-style-type: none;	
+	float: left;
+    line-height: 1.7;
+    color: aqua;
+}
+
+img {
+    height: 50px;
+    float: left;
+}
+
