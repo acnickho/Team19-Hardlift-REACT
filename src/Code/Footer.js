@@ -8,30 +8,49 @@ const Footer = () => (
     <div id="footer">
 
     
-<ul class="col1">
+<ul className="col1">
     <h4>STAY CONNECTED</h4>
-    <li>Image 1</li>
-     <li>Image 2</li>
-    <li>Image 3</li>
-    </ul>
+	<table><tr>
+		<td>
+			<button className="ui circular facebook icon button">
+				<i className="facebook icon"></i>
+			</button>
+		</td>
+		<td>
+			<button className="ui circular youtube icon button">
+				<i className="youtube icon"></i>
+			</button>
+		</td>
+		<td>
+			<button className="ui circular twitter icon button">
+				<i className="twitter icon"></i>
+			</button>
+		</td>
+	</tr></table>
+</ul>
     
-<ul class="col2">
+<ul className="col2">
     <li>ABOUT</li>
     <li>WORKOUT</li>
     <li>BLOG</li>
     </ul>
 
 
-<ul class="col3">
+<ul className="col3">
     <li>SHOP</li>
     <li>CONTACT US</li>
     <li>LOGIN/SIGNUP</li>
     </ul>
 
-<ul class="col4">
+<ul className="col4">
     <h4>JOIN OUR NEWSLETTER</h4>
-    <li><input type="text" placeholder="example@exmaple.com"/></li>
-    <li><input type="submit" value="SUBSCRIBE NOW"/></li>
+    <form className="ui form">
+		<div className="field">
+			<label>Email Address</label>
+			<input type="text" name="email" placeholder="example@example.com"/>
+		</div>
+		<button className="ui mini button">Submit</button>
+	</form>
 </ul>
     </div>
 )

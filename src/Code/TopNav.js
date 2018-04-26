@@ -12,13 +12,13 @@ const TopNav = () => (
 			<div classname="logo">
 				<img src={logo} className="HL-logo" alt="logo"/>
 			</div>
-			<div className="navlinks">
+			<div className="topnav">
 				<table><tr>
-					<td><Link to={"./AboutPage"}>About</Link></td>
-					<td><Link to={"./WorkoutPage"}>Workouts</Link></td>
-					<td><Link to={"./BlogPage"}>Blog</Link></td>
-					<td><Link to={"./ShopPage"}>Shop</Link></td>
-					<td><Link to={"./ContactUs"}>Contact Us</Link></td>
+					<td><Link to={"./AboutPage"}><h4>About</h4></Link></td>
+					<td><Link to={"./WorkoutPage"}><h4>Workouts</h4></Link></td>
+					<td><Link to={"./BlogPage"}><h4>Blog</h4></Link></td>
+					<td><Link to={"./ShopPage"}><h4>Shop</h4></Link></td>
+					<td><Link to={"./ContactUs"}><h4>Contact Us</h4></Link></td>
 					<td><Icon name="huge search"/></td>
 					<td><Icon name="huge shopping cart icon"/></td>
 					
