@@ -22,8 +22,6 @@ Abbanob (Michael) Kiryakoz 	- akiryakoz@deakin.edu.au
 
 Whenever you install a new react package, please list it below so everyone can keep their local machine the same:
 
-react-router
-
 react-router-dom
 
 semantic-ui-react

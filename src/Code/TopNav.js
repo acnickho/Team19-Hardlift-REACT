@@ -19,6 +19,7 @@ const TopNav = () => (
 					<td><Link to={"./BlogPage"}><h4>Blog</h4></Link></td>
 					<td><Link to={"./ShopPage"}><h4>Shop</h4></Link></td>
 					<td><Link to={"./ContactUs"}><h4>Contact Us</h4></Link></td>
+					<td><Link to={"./ContactUs"}><h4>Contact Us</h4></Link></td>
 					<td><Icon name="huge search"/></td>
 					<td><Icon name="huge shopping cart icon"/></td>
 					
