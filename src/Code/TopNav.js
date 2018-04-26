@@ -22,7 +22,7 @@ const TopNav = () => (
 					<td><Link to={"./ContactUs"}><h4>Contact Us</h4></Link></td>
 					<td><Icon name="huge search"/></td>
 					<td><Icon name="huge shopping cart icon"/></td>
-					
+
 				</tr></table>
 			</div>
 		</header>
