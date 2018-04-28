@@ -1,0 +1,45 @@
+h1{
+	text-align: center;
+}
+div.one {
+	width: 800px;
+	height: 500px;
+	border: 2px solid #000;
+	margin: 50px;
+	float:left; 
+}
+div.two {
+	width: 800px;
+	height: 500px;
+	border: 2px solid #000;
+	margin: 50px;
+	float:right; 
+}
+
+div.name {
+	width: 100px;
+	height: 20px;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+div.question {
+	width: 200px;
+	height: 20px;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+div.phone {
+	width: 200px;
+	height: 20px;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+div.details {
+	width: 500px;
+	height: 300px;
+	border: 1px solid #000;
+	margin: 10px;
+}

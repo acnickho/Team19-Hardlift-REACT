@@ -1,20 +1,27 @@
-
-
 .HL-logo {
-  height: 80px;
+  height:130px;
+  
 }
 
 .topnav {
   background-color: #00929F;
   height: 150px;
   padding: 20px;
-  color: aqua;
+  color: black;
   font-family:arial;
   display: block;
 }
 
 
-.bigicon {
-	height: 50px;
-	
+
+table.a{
+  margin: auto;
+  width: 90%;
+  border: 1px solid #000;
 }
+ h4{
+	font-size: 20px;
+	color:pink;
+	text-align: center;
+}
+td.a:hover {background-color: #ddd;}
