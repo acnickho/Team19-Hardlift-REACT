@@ -30,15 +30,15 @@ const Footer = () => (
 </ul>
     
 <ul className="col2">
-    <li>ABOUT</li>
-    <li>WORKOUT</li>
-    <li>BLOG</li>
+    <li><Link to={"./AboutPage"}>ABOUT</Link></li>
+    <li><Link to={"./WorkoutPage"}>WORKOUT</Link></li>
+    <li><Link to={"./BlogPage"}>BLOG</Link></li>
     </ul>
 
 
 <ul className="col3">
-    <li>SHOP</li>
-    <li>CONTACT US</li>
+    <li><Link to={"./ShopPage"}>SHOP</Link></li>
+    <li><Link to={"./ContactUs"}>CONTACT US</Link></li>
     <li>LOGIN/SIGNUP</li>
     </ul>
 
