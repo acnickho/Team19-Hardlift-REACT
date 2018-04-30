@@ -14,6 +14,15 @@
          
 }
 
+.center-div {	
+	margin:0 auto;
+	width:800px;
+}
+
+#footercontainer {
+	background-color: #00929F;
+}
+
 ul.col1 {
 	display: inline;
 	list-style-type: none;
