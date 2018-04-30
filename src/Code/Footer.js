@@ -5,7 +5,8 @@ import { Button, Icon } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
 const Footer = () => (
-    <div id="footer">
+    <div id="footercontainer">
+	<div id="footer" className="center-div">
 
     
 <ul className="col1">
@@ -52,7 +53,8 @@ const Footer = () => (
 		<button className="ui mini button">Submit</button>
 	</form>
 </ul>
-    </div>
+    	</div>
+	</div>
 )
 
 export default Footer
