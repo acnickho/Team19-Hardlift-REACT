@@ -14,32 +14,41 @@ const ContactUs = () => (
 
 			<div className="container">
 				<label for="fname">First Name</label>
+					<br></br>
     		<input type="text" id="fname" name="firstname" placeholder="Your name..">
 				</input>
+					<br></br>
 
-			<label for="lname">Last Name</label>
-    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-			</input>
+				<label for="lname">Last Name</label>
+					<br></br>
+    		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				</input>
+					<br></br>
 
-			<label for="email">Email</label>
+				<label for="email">Email</label>
+					<br></br>
     		<input type="text" id="email" name="email" placeholder="Your Email Address..">
 				</input>
-			</div>
+						<br></br>
 
-						<label for="subject">Subject</label>
-			<select id="subject" name="subject">
+				<label for="subject">Subject</label>
+						<br></br>
+				<select id="subject" name="subject">
 						<option value="generalenquiry">General Enquiry</option>
 						<option value="nutrition">Nutrition</option>
 						<option value="mediaenquiry">Media Enquiry</option>
-			</select>
+				</select>
+						<br></br>
 
-							<label for="message">Message</label>
+				<label for="message">Message</label>
+							<br></br>
 				<textarea rows="4" cols="50" placeholder="Write your Message Here...">
 				</textarea>
-
+						<br></br>
 			<input type="submit" value="Submit"></input>
 
-					</div>
+				</div>
+		</div>
 	</div>
 </div>
 )

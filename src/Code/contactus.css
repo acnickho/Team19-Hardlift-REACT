@@ -20,7 +20,7 @@ input[type=submit]:hover {
 }
 
 input[type=text], select, textarea {
-    width: 100%;
+    width: 215%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -44,6 +44,7 @@ input[type=submit]:hover {
 }
 
 .container {
+		width: 50%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
