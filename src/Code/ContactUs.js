@@ -48,10 +48,10 @@ const ContactUs = () => (
 
 		<div className = "faq">
 			<h2> Contact Details</h2>
-			<p> Chloe </p>
-			<p> 0499999999 </p>
-			<p> 123 Hardlift Street, 3000, VIC </p>
-			<p> email@server.com </p>
+			<p><b> Chloe Martin </b></p>
+			<p> Ph: 0499999999 </p>
+			<p> Address: 123 Hardlift Street, 3000, VIC </p>
+			<p> Email: email@server.com </p>
 			<h2> Frequently Asked Questions</h2>
 			<h3> Operating hours</h3>
 			<p> We are open from 9am to 9pm everyday</p>
