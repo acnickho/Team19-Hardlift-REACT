@@ -2,9 +2,6 @@ body {
 	margin: 0;
 }
 
-h1{
-	text-align: center;
-}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 input[type=submit] {
     background-color: #31f3ff;
@@ -44,8 +41,23 @@ input[type=submit]:hover {
 }
 
 .container {
-		width: 50%;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  width: 100%;
+	height: 30%;
+	margin:auto;
+	padding-top:10px;
+	display:inline-block;
+}
+
+.form {
+	width: 50%;
+	float:left;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+.faq {
+	width: 50%;
+	float:right;
+	display:inline-block;
+	margin-bottom:20px;
 }
