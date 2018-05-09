@@ -3,6 +3,7 @@
   "description": "Capstone Team 19s website made for Hardlift, Chloe Martin. Developed with React technologies",
   "version": "0.1.0",
   "dependencies": {
+    "npm": "^6.0.0",
     "react": "15.5.3",
     "react-dom": "15.5.3",
     "react-router-dom": "^4.2.2",
