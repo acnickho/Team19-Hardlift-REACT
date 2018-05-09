@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../images/hardlift.png';
 import './topnav.css';
-import { Button, Icon } from 'semantic-ui-react';
+import { Icon } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 import Sticky from 'react-sticky-el';
 
