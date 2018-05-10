@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+	height: 30%;
+	margin:auto;
+	padding-top:10px;
+	display:inline-block;
+	overflow: auto;
+}
+
+
+
+.aboutText {
+	left: 5px;
+	width: 50%;
+	float:left;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+.aboutImageRight {
+	Right: 5px;
+	width: 50%;
+	float:right;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+.MeetTeam {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display:inline-block;
+	margin-bottom:20px;
+}
