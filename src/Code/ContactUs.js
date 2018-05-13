@@ -6,30 +6,30 @@ import './contactus.css';
 const ContactUs = () => (
 <div>
 
-	<div className="container">
+	<div className="container"> //Puts both the contact form and FAQ in a container
 
-		<div className="form">
+		<div className="form"> // Contact form being left container
 			<h2>Contact Us</h2>
 
 				<label for="fname">First Name</label>
 					<br></br>
-    		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+    		<input type="text" id="fname" name="firstname" placeholder="Your name.."> // Input for first name
 				</input>
 					<br></br>
 
 				<label for="lname">Last Name</label>
 					<br></br>
-    		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    		<input type="text" id="lname" name="lastname" placeholder="Your last name.."> // Input for last name
 				</input>
 					<br></br>
 
 				<label for="email">Email</label>
 					<br></br>
-    		<input type="text" id="email" name="email" placeholder="Your Email Address..">
+    		<input type="text" id="email" name="email" placeholder="Your Email Address.."> // Input for email add.
 				</input>
 						<br></br>
 
-				<label for="subject">Subject</label>
+				<label for="subject">Subject</label> // Drop down list of subjects
 						<br></br>
 				<select id="subject" name="subject">
 						<option value="generalenquiry">General Enquiry</option>
@@ -40,21 +40,21 @@ const ContactUs = () => (
 
 				<label for="message">Message</label>
 							<br></br>
-				<textarea rows="4" cols="50" placeholder="Write your Message Here...">
+				<textarea rows="4" cols="50" placeholder="Write your Message Here..."> // Input for messages
 				</textarea>
 						<br></br>
 			<input type="submit" value="Submit"></input>
 		</div>
 
-		<div className = "faq">
+		<div className = "faq"> // FAQ being right container
 			<h2> Contact Details</h2>
 			<p><b> Chloe Martin </b></p>
 			<p> Ph: 0499999999 </p>
 			<p> Address: 123 Hardlift Street, 3000, VIC </p>
 			<p> Email: email@server.com </p>
 			<h2> Frequently Asked Questions</h2>
-			<h3> Operating hours</h3>
-			<p> We are open from 9am to 9pm everyday</p>
+			<h3> Operating hours</h3> // Questions
+			<p> We are open from 9am to 9pm everyday</p> // Answers
 			<h3> What do you specialise in?</h3>
 			<p> We specialise in doing stuff</p>
 			<h3> Some question</h3>
