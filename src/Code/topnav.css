@@ -2,6 +2,10 @@
   height:130px;
   
 }
+.topnavcontainer {
+	overflow:auto;
+	background-color: #00929F;
+}
 
 .topnav {
   background-color: #00929F;
@@ -10,18 +14,59 @@
   color: black;
   font-family:arial;
   display: block;
+  overflow:auto;
+
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #00929F;
+	
+	  
+}
+
+.navlist li {
+    display: inline;
+	float: left;
+	padding-left:30px;
+
 }
 
 
 
-table.a{
-  margin: auto;
-  width: 90%;
-  border: 1px solid #000;
+.navlist li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-radius: 5px;
 }
+
+.navlist li a:hover {
+    background-color: #006470;
+}
+
+#searchicon {
+	float: right;
+
+	
+}
+
+#shoppingicon {
+	float: right;
+	
+}
+
+
+
+
  h4{
 	font-size: 20px;
-	color:pink;
+	color:aqua;
 	text-align: center;
 }
 td.a:hover {background-color: #ddd;}
