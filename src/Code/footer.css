@@ -7,52 +7,74 @@
 	background-color: #00929F;
     font-family:arial;
     clear: both;
-    height: 150px;
+    height: 120px;
     text-align: left;
-    padding: 10px;
-   
-         
 }
 
-.center-div {	
+.center-div {
 	margin:0 auto;
 	width:800px;
 }
 
 #footercontainer {
 	background-color: #00929F;
+  padding: 15px;
+}
+
+.col2 li a {
+  padding: 4px 6px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.col2 li a:hover {
+  background-color: #006470;
+  color: #ddd;
+}
+
+.col3 li a {
+  padding: 4px 6px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.col3 li a:hover {
+  background-color: #006470;
+  color: #ddd;
 }
 
 ul.col1 {
 	display: inline;
 	list-style-type: none;
 	float: left;
-    line-height: 1.7;
-    color: aqua;
-    width: 200px
+  line-height: 1.9;
+  color: aqua;
+
 }
 
 ul.col2 {
 	display: block;
-	list-style-type: none;	
+	list-style-type: none;
 	float: left;
-    line-height: 1.7;
+    line-height: 2.2;
     color: aqua;
+
 }
 ul.col3 {
 	display: block;
-	list-style-type: none;	
+	list-style-type: none;
 	float: left;
-    line-height: 1.7;
-    color: aqua;
+  line-height: 2.2;
+  color: aqua;
+
 }
 ul.col4 {
     display: block;
-	list-style-type: none;	
-	float: left;
+	 list-style-type: none;
+	  float: left;
     line-height: 1.7;
     color: aqua;
 }
+
 
 img {
     height: 50px;
@@ -61,4 +83,3 @@ img {
 a{
     color: inherit;
 }
-

@@ -9,6 +9,8 @@ const Footer = () => (
 
 
 <ul className="col1">
+
+
     <h4>STAY CONNECTED</h4>
 	<table><tr>
 		<td>
@@ -29,27 +31,35 @@ const Footer = () => (
 	</tr></table>
 </ul>
 
+
+
 <ul className="col2">
-    <li><Link to={"./AboutPage"}>ABOUT</Link></li>
-    <li><Link to={"./WorkoutPage"}>WORKOUT</Link></li>
-    <li><Link to={"./BlogPage"}>BLOG</Link></li>
+
+
+    <li><Link to={"./AboutPage"}><b>ABOUT</b></Link></li>
+    <li><Link to={"./WorkoutPage"}><b>WORKOUT</b></Link></li>
+    <li><Link to={"./BlogPage"}><b>BLOG</b></Link></li>
     </ul>
 
 
 <ul className="col3">
-    <li><Link to={"./ShopPage"}>SHOP</Link></li>
-    <li><Link to={"./ContactUs"}>CONTACT US</Link></li>
-    <li>LOGIN/SIGNUP</li>
+
+
+    <li><Link to={"./ShopPage"}><b>SHOP</b></Link></li>
+    <li><Link to={"./ContactUs"}><b>CONTACT US</b></Link></li>
+
     </ul>
 
 <ul className="col4">
-    <h4>JOIN OUR NEWSLETTER</h4>
+
+    <h5>JOIN OUR NEWSLETTER</h5>
     <form className="ui form">
 		<div className="field">
-			<label>Email Address</label>
-			<input type="text" name="email" placeholder="example@example.com"/>
-		</div>
-		<button className="ui mini button">Submit</button>
+      	<input type="text" name="email" placeholder="example@example.com" size="39"/>
+
+    </div>
+	<button className="ui mini button">Submit</button>
+
 	</form>
 </ul>
     	</div>
