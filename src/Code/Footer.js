@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './footer.css';
-import { Button, Icon } from 'semantic-ui-react';
 import 'semantic-ui-css/semantic.min.css';
 
 const Footer = () => (
     <div id="footercontainer">
 	<div id="footer" className="center-div">
 
-    
+
 <ul className="col1">
     <h4>STAY CONNECTED</h4>
 	<table><tr>
@@ -29,7 +28,7 @@ const Footer = () => (
 		</td>
 	</tr></table>
 </ul>
-    
+
 <ul className="col2">
     <li><Link to={"./AboutPage"}>ABOUT</Link></li>
     <li><Link to={"./WorkoutPage"}>WORKOUT</Link></li>
