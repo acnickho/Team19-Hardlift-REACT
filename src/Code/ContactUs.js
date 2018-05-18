@@ -5,30 +5,36 @@ import './contactus.css';
 const ContactUs = () => (
 <div>
 
-	<div className="container"> {/*Puts both the contact form and FAQ in a container*/}
+{/*Puts both the contact form and FAQ in a container*/}
+	<div className="container">
 
-		<div className="form"> {/* Contact form being left container*/}
+{/* Contact form being left container*/}
+		<div className="form">
 			<h2>Contact Us</h2>
 
+		{/* Input for first name*/}
 				<label for="fname">First Name</label>
 					<br></br>
-    		<input type="text" id="fname" name="firstname" placeholder="Your name.."> {/* Input for first name*/}
+    		<input type="text" id="fname" name="firstname" placeholder="Your name..">
 				</input>
 					<br></br>
 
+				{/* Input for last name*/}
 				<label for="lname">Last Name</label>
 					<br></br>
-    		<input type="text" id="lname" name="lastname" placeholder="Your last name.."> {/* Input for last name*/}
+    		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 				</input>
 					<br></br>
 
+				{/* Input for email add.*/}
 				<label for="email">Email</label>
 					<br></br>
-    		<input type="text" id="email" name="email" placeholder="Your Email Address.."> {/* Input for email add.*/}
+    		<input type="text" id="email" name="email" placeholder="Your Email Address..">
 				</input>
 						<br></br>
 
-				<label for="subject">Subject</label> {/* Drop down list of subjects*/}
+				{/* Drop down list of subjects*/}
+				<label for="subject">Subject</label>
 						<br></br>
 				<select id="subject" name="subject">
 						<option value="generalenquiry">General Enquiry</option>
@@ -37,23 +43,27 @@ const ContactUs = () => (
 				</select>
 						<br></br>
 
+				{/* Input for messages */}
 				<label for="message">Message</label>
 							<br></br>
-				<textarea rows="4" cols="50" placeholder="Write your Message Here..."> {/* Input for messages */}
+				<textarea rows="4" cols="50" placeholder="Write your Message Here...">
 				</textarea>
 						<br></br>
 			<input type="submit" value="Submit"></input>
 		</div>
 
-		<div className = "faq"> {/* FAQ being right container */}
-			<h2> Contact Details</h2>
-			<p><b> Chloe Martin </b></p>
-			<p> Ph: 0499999999 </p>
-			<p> Address: 123 Hardlift Street, 3000, VIC </p>
-			<p> Email: email@server.com </p>
+		{/* FAQ being right container */}
+		<div className = "faq">
+			<h2>Contact Details</h2>
+			<h3><b> Chloe Martin </b></h3>
+			<p><b> Ph:</b> 0499999999 </p>
+			<p><b> Address:</b> 123 Hardlift Street, 3000, VIC </p>
+			<p><b> Email:</b> email@server.com </p>
 			<h2> Frequently Asked Questions</h2>
-			<h3> Operating hours</h3> {/* Questions */}
-			<p> We are open from 9am to 9pm everyday</p> {/* Answers*/}
+			{/* Questions */}
+			<h3> Operating hours</h3>
+			{/* Answers*/}
+			<p> We are open from 9am to 9pm everyday</p>
 			<h3> What do you specialise in?</h3>
 			<p> We specialise in doing stuff</p>
 			<h3> Some question</h3>
