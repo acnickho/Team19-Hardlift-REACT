@@ -1,13 +1,12 @@
 import React from 'react'
 import './blogpage.css';
 import 'semantic-ui-css/semantic.min.css';
-
 const BlogPage = () => (
 
 
     <div className="container">
 
-        <h1>Blog</h1>
+
         <div className="sidebar">
             <h2>Categories</h2>
             <ul className="sidecol">

@@ -1,6 +1,7 @@
 .container {
-    
-    padding: 1em;
+
+    padding-left: 0;
+    margin: 0;
 }
 
 h1 {
@@ -8,8 +9,7 @@ h1 {
 }
 
 .sidebar {
-    background-color: green;
-    height: auto;
+    border-style: outset;
     float: left;
     display:inline-block;
     padding: 1em;
@@ -17,21 +17,21 @@ h1 {
 
 ul.sidecol {
     line-height: 2.7;
-    list-style-type: none;
-   
+    list-style-type: circle;
+
 }
 
 .blogcontainer {
-    padding: 1em; 
+    padding: 1em;
     display:inline-block;
     width: 1000px;
     margin-left: 1em;
-    
+
 }
 
 .blog1 {
      padding: 1em;
- 
+
 }
 
 .blog2 {
@@ -40,7 +40,7 @@ ul.sidecol {
 
 ul.bloglist {
     list-style-type: none;
-  
+
 }
 
 li.bloglist{
