@@ -27,31 +27,35 @@ h1.h1 {
 	display:-inline-block;
 }
 
-.midcontainer {
+.middlecontainer {
+	margin:0 auto;
     width: 100%;
-	height: 30%;
-	margin:auto;
+	height: 600px;
 	display:inline-block;
+	overflow:auto;
+	padding-left:200px;
+	padding-right:200px;
 }
 
 .feeddiv {
-	width: 35%;
+	width: 45%;
 	height: 500px;
 	border: 2px solid #000;
 	float:left; 
 	display:inline-block;
-	margin-bottom:20px;
-	margin-left: 200px;
+	margin:auto;
+	overflow:auto;
 }
 
 .blogdiv {
-	width: 40%;
+	width: 45%;
 	height: 500px;
 	border: 2px solid #000;
 	float:right;
 	display:inline-block;
-	margin-bottom:20px;	
-	margin-right: 200px;
+	margin:auto;
+	overflow:auto;
+
 }
 
 .feed {
