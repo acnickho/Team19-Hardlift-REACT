@@ -9,7 +9,7 @@ const ContactUs = () => (
 	<div className="container">
 
 {/* Contact form being left container*/}
-		<div className="form">
+		<div className="contactform">
 			<h2>Contact Us</h2>
 
 		{/* Input for first name*/}

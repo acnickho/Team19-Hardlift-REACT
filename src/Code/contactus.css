@@ -48,11 +48,12 @@ input[type=submit]:hover {
 	display:inline-block;
 }
 
-.form {
+.contactform {
 	width: 50%;
 	float:left;
 	display:inline-block;
 	margin-bottom:20px;
+	padding-left:200px;
 }
 
 .faq {
@@ -60,4 +61,5 @@ input[type=submit]:hover {
 	float:right;
 	display:inline-block;
 	margin-bottom:20px;
+	padding-right:200px;
 }
