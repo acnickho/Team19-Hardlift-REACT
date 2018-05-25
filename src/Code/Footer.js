@@ -55,7 +55,7 @@ const Footer = () => (
     <h5>JOIN OUR NEWSLETTER</h5>
     <form className="ui form">
 		<div className="field">
-      	<input type="text" name="email" placeholder="example@example.com" size="46"/>
+      	<input type="text" name="email" placeholder="example@example.com" size="30"/>
 
     </div>
 	<button className="ui mini button">Submit</button>

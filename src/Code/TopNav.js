@@ -16,12 +16,12 @@ const TopNav = () => (
 			<div className="topnav">
 				<ul className="navlist">
 
-					<li><Link to={"./HomePage"}><h4 >Home</h4></Link></li>
-					<li><Link to={"./AboutPage"}><h4>About</h4></Link></li>
-					<li><Link to={"./WorkoutPage"}><h4>Workouts</h4></Link></li>
-					<li><Link to={"./BlogPage"}><h4>Blog</h4></Link></li>
-					<li><Link to={"./ShopPage"}><h4>Shop</h4></Link></li>
-					<li><Link to={"./ContactUs"}><h4>Contact Us</h4></Link></li>
+					<li><Link to={"./HomePage"}>Home</Link></li>
+					<li><Link to={"./AboutPage"}>About</Link></li>
+					<li><Link to={"./WorkoutPage"}>Workouts</Link></li>
+					<li><Link to={"./BlogPage"}>Blog</Link></li>
+					<li><Link to={"./ShopPage"}>Shop</Link></li>
+					<li><Link to={"./ContactUs"}>Contact Us</Link></li>
 					<li id="searchicon"><Icon name="small search"/></li>
 					<li id="shoppingicon"><Icon name="small shopping cart icon"/></li>
 

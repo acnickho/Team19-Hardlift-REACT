@@ -4,10 +4,10 @@ import nike from '../images/nike.png';
 
 const HomePage = () => (
 <div>
-    <h1 className="h1">Hard Lift</h1>
-	<div className="slideshow">
+
+
 		<img src={nike} className="nike" alt="nike"/>
-	</div>
+
 
 
 	<div className ="middlecontainer">
@@ -17,7 +17,7 @@ const HomePage = () => (
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 			<p>#It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 		</div>
-		
+
 		<div className="blogdiv">
 			<h3 className="blog">Latest News/Blogs</h3>
 			<p>Lorem Ipsum</p>
@@ -29,8 +29,8 @@ const HomePage = () => (
 		<h3>Testimonial from client</h3>
 		<p>Training with Hard Lift for me was that it's definitely worth getting a professional opinion and help with how to use equipment at the gym and also being pushed to do things you wouldn't do by yourself. From this training I am more confident at the gym and have learnt workouts that I can do by myself. My greatest take away is confidence and a great leg work out! If you're feeling on the fence I recommend do it! Start today and see the results sooner.</p>
 		<p>Kate Byrne</p>
-	</div>	
-	
+	</div>
+
 	<div className="botdiv1">
 		<h3>Testimonial from client</h3>
 		<p>I enjoyed training with Chloe. She made it fun and interesting, explaining to me why we were doing each exercise as we went. I would highly recommend training with Chloe as she encourages me to push myself harder than I would have done on my own. I would also tell them if they are feeling anxious to start exercising (particularly in a busy gym) not to let that stop them as Chloe made me feel comfortable at all times. Chloe taught me a lot of exercises that I can now incorporate into my own training. To someone who is on the fence about getting started I would tell them to stop procrastinating! It is always easier to train with someone’s help.</p>
@@ -43,7 +43,7 @@ const HomePage = () => (
 		<p>Client name</p>
 	</div>
 </div>
-  
+
 )
 
 export default HomePage

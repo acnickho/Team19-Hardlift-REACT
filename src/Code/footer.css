@@ -5,7 +5,6 @@
 #footer {
 
 	background-color: #00929F;
-    font-family:arial;
     clear: both;
     height: 140px;
     text-align: left;
@@ -47,7 +46,7 @@ ul.col1 {
 	display: inline;
 	list-style-type: none;
 	float: left;
-	line-height: 1.9;
+	line-height: 2.0;
 	color: aqua;
 
 }
@@ -76,11 +75,6 @@ ul.col4 {
 	float:right;
 }
 
-
-img {
-    height: 50px;
-    float: left;
-}
 a{
     color: inherit;
 }

@@ -1,18 +1,11 @@
 * {
-    box-sizing: border-box;
+  font-family: arial;
 }
 .nike{
-	width:1500px;
-	height:500px;
+	width: 100%;
+	height: 380px;
 }
 
-body {
-	margin: 0;	
-}
-
-h1.h1 {
-    text-align: center;
-}
 
 .midh2 {
     text-align: left;
@@ -41,7 +34,7 @@ h1.h1 {
 	width: 45%;
 	height: 500px;
 	border: 2px solid #000;
-	float:left; 
+	float:left;
 	display:inline-block;
 	margin:auto;
 	overflow:auto;
@@ -63,10 +56,6 @@ h1.h1 {
 }
 .blog {
 	text-align: center;
-}
-
-.center-div {	
-
 }
 
 .botdiv1 {
