@@ -9,12 +9,12 @@
 }
 .topnavcontainer {
 	overflow:auto;
-	background-color: #00929F;
-  height: 115px;
+	background: #00929F;
+	height: 115px;
 }
 
 .topnav {
-  background-color: #00929F;
+  
   height: 115px;
   color: black;
   font-family:arial;
@@ -27,8 +27,8 @@
     margin: 0;
     padding: 20px;
     overflow: hidden;
-    background-color: #00929F;
-      font-family:arial;
+    
+    font-family:arial;
 
 }
 
