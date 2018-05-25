@@ -59,11 +59,14 @@
 }
 
 .botdiv1 {
-	height:200px;
+	height:auto;
 	width: 1500px;
-	border:2px solid #000;
 	display:inline-block;
 	margin-left: 200px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	padding:20px;
+	overflow: auto;
 }
