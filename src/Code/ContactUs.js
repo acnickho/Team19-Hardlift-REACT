@@ -10,6 +10,8 @@ const ContactUs = () => (
 
 {/* Contact form being left container*/}
 		<div className="contactform">
+		{/* Spacing above contact us*/}
+		<p></p>
 			<h2>Contact Us</h2>
 
 		{/* Input for first name*/}
@@ -50,6 +52,9 @@ const ContactUs = () => (
 				</textarea>
 						<br></br>
 			<input type="submit" value="Submit"></input>
+			{/* Spacing after submit button*/}
+			<br></br>
+			<br></br>
 		</div>
 
 		{/* FAQ being right container */}
