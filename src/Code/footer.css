@@ -24,21 +24,22 @@
   padding: 4px 6px;
   text-decoration: none;
   border-radius: 5px;
+  color:aqua;
 }
+
 .col2 li a:hover {
   background-color: #006470;
-  color: #ddd;
 }
 
 .col3 li a {
   padding: 4px 6px;
   text-decoration: none;
   border-radius: 5px;
+  color:inherit;
 }
 
 .col3 li a:hover {
   background-color: #006470;
-  color: #ddd;
 }
 
 ul.col1 {
@@ -47,7 +48,6 @@ ul.col1 {
 	float: left;
 	line-height: 2.0;
 	color: aqua;
-
 }
 
 ul.col2 {
@@ -55,25 +55,21 @@ ul.col2 {
 	list-style-type: none;
 	float: left;
     line-height: 2.2;
-    color: aqua;
-
+    color: inherit;
 }
+
 ul.col3 {
 	display: block;
 	list-style-type: none;
 	float: left;
-  line-height: 2.2;
-  color: aqua;
-
+	line-height: 2.2;
+	color: aqua;
 }
+
 ul.col4 {
     display: block;
 	list-style-type: none;
     line-height: 1.7;
     color: aqua;
 	float:right;
-}
-
-a{
-    color: inherit;
 }

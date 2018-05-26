@@ -1,12 +1,13 @@
 * {
     font-family:arial;
 }
+
 .HL-logo {
   height: 110px;
   float: left;
   padding-top: 5px;
-
 }
+
 .topnavcontainer {
 	overflow:auto;
 	background: #00929F;
@@ -19,17 +20,14 @@
   color: black;
   font-family:arial;
   display: block;
-
 }
 
 .navlist {
     list-style-type: none;
     margin: 0;
     padding: 20px;
-    overflow: hidden;
-    
+    overflow: hidden;  
     font-family:arial;
-
 }
 
 .navlist li {
@@ -38,9 +36,7 @@
 	padding-left:30px;
   font-size: 18px;
   line-height: 1.7;
-
 }
-
 
 .navlist li a {
     display: block;
@@ -51,7 +47,6 @@
   	border-radius: 5px;
     color: aqua;
     font-weight: bold;
-
 }
 
 .navlist li a:hover {
@@ -60,14 +55,8 @@
 
 #searchicon {
 	float: right;
-
-
 }
 
 #shoppingicon {
 	float: right;
-
 }
-
-
-td.a:hover {background-color: #ddd;}
