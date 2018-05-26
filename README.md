@@ -28,6 +28,8 @@ semantic-ui-react
 
 semantic-ui-css
 
+react-sticky-el
+
 
 Slack Board:
 sit384-t19.slack.com
